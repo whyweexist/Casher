@@ -11,21 +11,21 @@ type Props = {
   className?: string;
 };
 
+// Updated available tokens for Ethereum
 const availableTokens = [
   {
-    iconSrc: '/vara-token.svg',
-    label: "Vara",
-    href: "/vara",
-    balance:'0.001'
+    iconSrc: '/eth-token.svg', // Change the icon to an Ethereum token icon
+    label: "Ether",
+    href: "/ether",
+    balance: '0.001'
   },
   {
-    iconSrc: '/vara-token.svg',
-    label: "TVara",
-    href: "/vara",
-    balance:'0.121'
+    iconSrc: '/dai-token.svg', // Example token, update as needed
+    label: "DAI",
+    href: "/dai",
+    balance: '0.121'
   }
 ];
-
 
 export default function Sidebar({ className }: Props) {
   return (
@@ -44,8 +44,8 @@ export default function Sidebar({ className }: Props) {
             Active Network
           </div>
           <SidebarItem
-            iconSrc="/vara-token.svg"
-            label="Vara Testnet"
+            iconSrc="/eth-token.svg" // Update to Ethereum icon
+            label="Ethereum Mainnet" // Change the network name
             href="/#"
           />
         </div>
