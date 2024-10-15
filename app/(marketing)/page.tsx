@@ -37,10 +37,10 @@ export default function Home() {
         headingFont.className,
       )}>
         <div className="mb-4 text-sm flex items-center border shadow-sm py-2 px-4 bg-amber-100 text-amber-700 rounded-full uppercase">
-          Powered by Vara Blockchain
+          Powered by Eth Blockchain
         </div>
         <h1 className={cn("text-4xl md:text-7xl text-center text-white mb-6", theme === "light" && "text-black")}>
-          Whisper Cash
+         Casher
         </h1>
         <div className="text-2xl md:text-5xl bg-gradient-to-r from-[#31FAC6] to-[#179675] text-white px-4 p-2 rounded-md  w-fit">
           <TypeWriterComponent
@@ -62,7 +62,7 @@ export default function Home() {
         textFont.className,
       )}>
 
-        WispherCash is a ai wallet that allows you to send and receive money from anywhere in the world, with just plain english.
+        Casher is a ai wallet that allows you to send and receive money from anywhere in the world, with just plain english.
       </div>
       <Button className="mt-6" size="lg" asChild>
         <Link href="/chat">
