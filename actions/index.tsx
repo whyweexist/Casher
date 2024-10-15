@@ -27,7 +27,7 @@ function ChainInfoCard({ chainInfo }: any) {
     return (
         <Card>
             <CardHeader>
-                <CardTitle>Vara Blockchain Info</CardTitle>
+                <CardTitle>Road 2  Devcon</CardTitle>
                 <CardDescription className="">Web3’s highest-
                     performing layer-1 decentralized network.</CardDescription>
             </CardHeader>
@@ -109,7 +109,7 @@ async function submitUserMessage(userInput: string) {
         },
         tools: {
             get_chain_info: {
-                description: "Gets all the required information about the vara blockchain.",
+                description: "Gets all the required information about the eth blockchain.",
                 parameters: z.object({}),
                 render: async function* ({ }) {
                     yield <Spinner />
