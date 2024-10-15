@@ -48,7 +48,7 @@ export default function Home() {
               strings: [
                 "send 5 tokens to harshal.vara",
                 "what is my balance.",
-                "swap WETH with testVara.",
+                "swap ETH with your wallet.",
                 "ask me anything!",
               ],
               autoStart: true,
@@ -62,7 +62,7 @@ export default function Home() {
         textFont.className,
       )}>
 
-        Casher is a ai wallet that allows you to send and receive money from anywhere in the world, with just plain english.
+        Casher is an AI wallet and transactor that allows you to send and receive money from anywhere in the world, on your fingertips.
       </div>
       <Button className="mt-6" size="lg" asChild>
         <Link href="/chat">
