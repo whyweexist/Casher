@@ -1,14 +1,20 @@
-import React from 'react'
+import React from 'react';
 
-const BalanceItem = ({ imageSrc, name, amount }) => {
+interface BalanceItemProps {
+  imageSrc: string;  // Type for the image source
+  name: string;      // Type for the name
+  amount: string;    // Type for the amount, assuming it can be a string
+}
+
+const BalanceItem: React.FC<BalanceItemProps> = ({ imageSrc, name, amount }) => {
   return (
     <div className="flex justify-center items-center border border-darkGreen bg-black rounded-lg w-full py-4 px-6">
       <div className="flex w-full justify-between">
         <div className="flex justify-center items-center space-x-2">
-          <img src={imageSrc} alt="" className="w-10 h-10" />
+          <img src={imageSrc} alt={name} className="w-10 h-10" />
           <div className="flex flex-col">
             <div className="text-xl">{name}</div>
-            <div className="text-sm">{name}</div>
+            <div className="text-sm">{amount}</div> {/* Changed from name to amount */}
           </div>
         </div>
         <div className="text-xl">{amount}</div>
@@ -38,4 +44,3 @@ export function AccountSidebar() {
     </div>
   );
 };
-
