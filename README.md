@@ -1,6 +1,6 @@
-# Whisper Cash
+# Casher
 
-Whisper Cash is a natural language-based smart wallet built on the Vara Blockchain. It leverages OpenAI APIs, Vercel's AI SDK, and `@polkadot/extension-dapp` to provide users with a seamless experience when interacting with the Vara blockchain.
+Casher is a natural language-based smart wallet built on the Vara Blockchain. It leverages OpenAI APIs, Vercel's AI SDK, and `@polkadot/extension-dapp` to provide users with a seamless experience when interacting with the Vara blockchain.
 
 ## Features
 
@@ -47,7 +47,7 @@ To run Whisper Cash locally, follow these steps:
 
 ## Project Status
 
-Please note that Whisper Cash is an experimental project and is actively under development. The `add-voice` branch contains the latest features and improvements.
+Please note that Casher is an experimental project and is actively under development. The `add-voice` branch contains the latest features and improvements.
 
 ## Contributing
 
@@ -55,4 +55,4 @@ We welcome contributions from the community to help improve Whisper Cash. If you
 
 ## Acknowledgements
 
-We would like to thank the organizers and sponsors of the ETHMumbai Hackathon for providing the opportunity to build Whisper Cash. Special thanks to the Vara Blockchain team for their excellent support.
+We would like to thank the organizers and sponsors of the Buildathon for providing the opportunity to build Casher. Special thanks to the Bhopal DAO for their excellent support.
