@@ -23,7 +23,7 @@ To run Whisper Cash locally, follow these steps:
 
 1. Clone the repository and switch to the `add-voice` branch:
    ```
-   git clone https://github.com/your-username/whisper-cash.git
+   git clone https://github.com/your-username/Casher.git
    cd whisper-cash
    git checkout add-voice
    ```
@@ -43,7 +43,7 @@ To run Whisper Cash locally, follow these steps:
    npm run dev
    ```
 
-5. Open your browser and navigate to `http://localhost:3000` to access the Whisper Cash application.
+5. Open your browser and navigate to `http://localhost:3000` to access the Casher application.
 
 ## Project Status
 
@@ -51,7 +51,7 @@ Please note that Casher is an experimental project and is actively under develop
 
 ## Contributing
 
-We welcome contributions from the community to help improve Whisper Cash. If you encounter any issues or have suggestions for new features, please open an issue on the GitHub repository.
+We welcome contributions from the community to help improve Casher. If you encounter any issues or have suggestions for new features, please open an issue on the GitHub repository.
 
 ## Acknowledgements
 
